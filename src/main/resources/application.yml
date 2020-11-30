@@ -1,8 +1,13 @@
 server:
   port: ${PORT:5000}
+
 security:
   user:
     password: ${eureka.password}
+
+spring:
+  application:
+    name: discover-service
 
 eureka:
   instance:
